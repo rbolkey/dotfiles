@@ -14,6 +14,9 @@ Bundle 'gmarik/vundle'
 Bundle 'vim-scripts/VimClojure'
 Bundle 'vim-scripts/paredit.vim'
 
+Bundle 'rodjek/vim-puppet'
+Bundle 'scrooloose/syntastic'
+
 Bundle 'vim-scripts/desert.vim'
 Bundle 'vim-scripts/molokai'
 Bundle 'vim-scripts/tir_black'
@@ -26,3 +29,4 @@ let g:vimclojure#ParenRainbow = 1
 let g:vimclojure#WantNailgun = 1
 
 au BufRead,BufNewFile *.clj set filetype=clojure
+au BufRead,BufNewFile *.pp set filetype=puppet
