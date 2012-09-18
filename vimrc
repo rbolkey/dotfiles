@@ -12,6 +12,8 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 Bundle 'vim-scripts/VimClojure'
+Bundle 'vim-scripts/paredit.vim'
+
 Bundle 'vim-scripts/desert.vim'
 Bundle 'vim-scripts/molokai'
 Bundle 'vim-scripts/tir_black'
