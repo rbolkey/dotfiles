@@ -1,0 +1,6 @@
+# Set default behaviour
+* text=auto
+
+# Explicitly declare text files we want to be normalized and converted 
+# to native line endings on checkout.
+vimrc text
