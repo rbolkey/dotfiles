@@ -17,6 +17,7 @@ Bundle 'vim-scripts/paredit.vim'
 Bundle 'rodjek/vim-puppet'
 Bundle 'scrooloose/syntastic'
 Bundle 'vim-scripts/commentary.vim'
+Bundle 'hallison/vim-markdown'
 
 Bundle 'vim-scripts/desert.vim'
 Bundle 'vim-scripts/molokai'
