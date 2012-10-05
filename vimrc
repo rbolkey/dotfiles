@@ -11,14 +11,16 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
-Bundle 'vim-scripts/VimClojure'
-Bundle 'vim-scripts/paredit.vim'
-
+Bundle 'hallison/vim-markdown'
 Bundle 'rodjek/vim-puppet'
 Bundle 'scrooloose/syntastic'
-Bundle 'vim-scripts/commentary.vim'
-Bundle 'hallison/vim-markdown'
 
+Bundle 'vim-scripts/commentary.vim'
+Bundle 'vim-scripts/paredit.vim'
+Bundle 'vim-scripts/taglist.vim'
+Bundle 'vim-scripts/VimClojure'
+
+" Color Schemes
 Bundle 'vim-scripts/desert.vim'
 Bundle 'vim-scripts/molokai'
 Bundle 'vim-scripts/tir_black'
