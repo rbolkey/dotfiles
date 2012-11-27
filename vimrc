@@ -17,6 +17,8 @@ Bundle 'scrooloose/syntastic'
 
 Bundle 'vim-scripts/commentary.vim'
 Bundle 'vim-scripts/paredit.vim'
+Bundle 'vim-scripts/repeat.vim'
+Bundle 'vim-scripts/surround.vim'
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'vim-scripts/VimClojure'
 
