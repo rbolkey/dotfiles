@@ -16,6 +16,8 @@ Bundle 'rodjek/vim-puppet'
 Bundle 'scrooloose/syntastic'
 
 Bundle 'vim-scripts/commentary.vim'
+Bundle 'vim-scripts/groovy.vim--Ruley'
+Bundle 'vim-scripts/groovyindent'
 Bundle 'vim-scripts/paredit.vim'
 Bundle 'vim-scripts/repeat.vim'
 Bundle 'vim-scripts/surround.vim'
