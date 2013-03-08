@@ -15,14 +15,17 @@ Bundle 'hallison/vim-markdown'
 Bundle 'rodjek/vim-puppet'
 Bundle 'scrooloose/syntastic'
 
-Bundle 'vim-scripts/commentary.vim'
+Bundle 'tpope/vim-classpath'
+Bundle 'tpope/vim-commentary'
+Bundle 'tpope/vim-foreplay'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-surround'
+Bundle 'guns/vim-clojure-static'
+
 Bundle 'vim-scripts/groovy.vim--Ruley'
 Bundle 'vim-scripts/groovyindent'
 Bundle 'vim-scripts/paredit.vim'
-Bundle 'vim-scripts/repeat.vim'
-Bundle 'vim-scripts/surround.vim'
 Bundle 'vim-scripts/taglist.vim'
-Bundle 'vim-scripts/VimClojure'
 
 " Color Schemes
 Bundle 'vim-scripts/desert.vim'
