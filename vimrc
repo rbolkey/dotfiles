@@ -5,6 +5,7 @@ filetype plugin indent on
 
 set expandtab
 set tabstop=2
+set shiftwidth=4
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
