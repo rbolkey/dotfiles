@@ -24,6 +24,7 @@ Bundle 'tpope/vim-fireplace'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
 Bundle 'guns/vim-clojure-static'
+Bundle 'guns/vim-sexp'
 
 Bundle 'vim-scripts/groovy.vim--Ruley'
 Bundle 'vim-scripts/groovyindent'
