@@ -48,3 +48,7 @@ let g:vimclojure#WantNailgun = 1
 au BufRead,BufNewFile *.clj set filetype=clojure
 au BufRead,BufNewFile *.pp set filetype=puppet
 au BufRead,BufNewFile *.gradle set filetype=groovy
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme = 'luna'
+set laststatus=2
