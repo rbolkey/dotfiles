@@ -12,6 +12,7 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
+Bundle 'bling/vim-airline'
 Bundle 'hallison/vim-markdown'
 Bundle 'rodjek/vim-puppet'
 Bundle 'scrooloose/syntastic'
