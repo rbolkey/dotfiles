@@ -18,6 +18,7 @@ Bundle 'rodjek/vim-puppet'
 Bundle 'scrooloose/syntastic'
 Bundle 'rking/ag.vim'
 Bundle 'juvenn/mustache.vim'
+Bundle 'kien/rainbow_parentheses.vim'
 
 " Bundle 'tpope/vim-classpath'
 Bundle 'tpope/vim-commentary'
@@ -48,6 +49,11 @@ let g:vimclojure#WantNailgun = 1
 au BufRead,BufNewFile *.clj set filetype=clojure
 au BufRead,BufNewFile *.pp set filetype=puppet
 au BufRead,BufNewFile *.gradle set filetype=groovy
+
+au BufEnter *.clj RainbowParenthesesActivate
+au Syntax clojure RainbowParenthesesLoadRound
+au Syntax clojure RainbowParenthesesLoadSquare
+au Syntax clojure RainbowParenthesesLoadBraces
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'luna'
