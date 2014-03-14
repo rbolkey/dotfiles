@@ -20,6 +20,9 @@ Bundle 'rking/ag.vim'
 Bundle 'juvenn/mustache.vim'
 Bundle 'kien/rainbow_parentheses.vim'
 
+Bundle 'airblade/vim-gitgutter'
+Bundle 'tpope/vim-fugitive'
+
 " Bundle 'tpope/vim-classpath'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-fireplace'
