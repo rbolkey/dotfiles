@@ -1,46 +1,48 @@
 set nocompatible
 syntax on
 filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'bling/vim-airline'
+Plugin 'hallison/vim-markdown'
+Plugin 'rodjek/vim-puppet'
+Plugin 'scrooloose/syntastic'
+Plugin 'rking/ag.vim'
+Plugin 'juvenn/mustache.vim'
+Plugin 'kien/rainbow_parentheses.vim'
+
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
+
+" Bundle 'tpope/vim-classpath'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-fireplace'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-surround'
+Plugin 'guns/vim-clojure-static'
+Plugin 'guns/vim-sexp'
+
+Plugin 'vim-scripts/groovy.vim--Ruley'
+Plugin 'vim-scripts/groovyindent'
+Plugin 'vim-scripts/paredit.vim'
+Plugin 'vim-scripts/taglist.vim'
+
+" Color Schemes
+Plugin 'vim-scripts/desert.vim'
+Plugin 'vim-scripts/molokai'
+Plugin 'vim-scripts/tir_black'
+Plugin 'altercation/vim-colors-solarized'
+
+call vundle#end()
 filetype plugin indent on
 
 set expandtab
 set tabstop=2
 set shiftwidth=4
-
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-Bundle 'gmarik/vundle'
-
-Bundle 'bling/vim-airline'
-Bundle 'hallison/vim-markdown'
-Bundle 'rodjek/vim-puppet'
-Bundle 'scrooloose/syntastic'
-Bundle 'rking/ag.vim'
-Bundle 'juvenn/mustache.vim'
-Bundle 'kien/rainbow_parentheses.vim'
-
-Bundle 'airblade/vim-gitgutter'
-Bundle 'tpope/vim-fugitive'
-
-" Bundle 'tpope/vim-classpath'
-Bundle 'tpope/vim-commentary'
-Bundle 'tpope/vim-fireplace'
-Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-surround'
-Bundle 'guns/vim-clojure-static'
-Bundle 'guns/vim-sexp'
-
-Bundle 'vim-scripts/groovy.vim--Ruley'
-Bundle 'vim-scripts/groovyindent'
-Bundle 'vim-scripts/paredit.vim'
-Bundle 'vim-scripts/taglist.vim'
-
-" Color Schemes
-Bundle 'vim-scripts/desert.vim'
-Bundle 'vim-scripts/molokai'
-Bundle 'vim-scripts/tir_black'
-Bundle 'altercation/vim-colors-solarized'
 
 colorscheme tir_black
 
