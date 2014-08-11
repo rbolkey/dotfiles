@@ -14,6 +14,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'rking/ag.vim'
 Plugin 'juvenn/mustache.vim'
 Plugin 'kien/rainbow_parentheses.vim'
+Bundle 'rizzatti/dash.vim'
 
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
@@ -61,5 +62,5 @@ au Syntax clojure RainbowParenthesesLoadSquare
 au Syntax clojure RainbowParenthesesLoadBraces
 
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme = 'luna'
+let g:airline_theme = 'monochrome'
 set laststatus=2
