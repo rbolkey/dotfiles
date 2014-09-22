@@ -7,7 +7,6 @@
 (defvar my-packages '(evil
                       zenburn-theme
                       clojure-mode
-                      clojure-test-mode
                       cider
                       starter-kit-lisp)
   "A list of packages to ensure are installed at launch.")
